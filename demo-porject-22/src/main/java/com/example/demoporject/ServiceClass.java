@@ -17,7 +17,7 @@ public class ServiceClass {
 		RestTemplate rest = new RestTemplate();
 		String r = null;
 
-		r = rest.getForObject("http://localhost:8081/hihi?name=lombokbro", String.class);
+		r = rest.getForObject("http://localhost:8081/hihi?name=chaddibuddy", String.class);
 
 		return r;
 	}
